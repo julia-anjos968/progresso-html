@@ -4,22 +4,32 @@
     box-sizing: border-box;
 }
 
-.quadrado {
+.circulo {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
+    flex-direction: column;
 }
 
-.quadrado1 {
+.circulo1 {
     width: 150px;
     height: 150px;
-    background-color: deeppink;
+    border-radius: 50%;
+    background-color: rgb(255, 20, 20);
 }
 
-.quadrado2 {
+.circulo2 {
     width: 150px;
     height: 150px;
-    background-color: pink;
+    border-radius: 50%;
+    background-color: rgb(248, 237, 79);
+}
+
+.circulo3 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgb(15, 247, 7);
 }
